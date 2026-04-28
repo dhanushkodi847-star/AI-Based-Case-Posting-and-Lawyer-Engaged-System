@@ -1,0 +1,161 @@
+# ⚖️ AI-Based Case Posting & Lawyer Engagement System
+
+A full-stack web application that connects clients with lawyers using AI-powered case classification and smart matching. This platform simplifies legal assistance by enabling users to post cases, find suitable lawyers, and manage legal interactions efficiently.
+
+---
+
+## 🚀 Features
+
+* 🧠 AI-based case classification
+* 👨‍⚖️ Lawyer discovery & engagement
+* 📄 Case posting & management
+* 💬 Real-time messaging system
+* 📅 Appointment booking
+* 💳 Secure payment integration
+* 🔔 Notifications system
+* 🛡️ Fraud detection module
+* 📊 Admin dashboard & analytics
+
+---
+
+## 🏗️ Tech Stack
+
+**Frontend:**
+
+* React.js (Vite)
+* CSS
+
+**Backend:**
+
+* Node.js
+* Express.js
+
+**Database:**
+
+* MongoDB
+
+**Other Tools:**
+
+* JWT Authentication
+* REST APIs
+* Socket.IO (Real-time communication)
+
+---
+
+## 📁 Project Structure
+
+```
+├── backend/
+│   ├── routes/
+│   ├── services/
+│   ├── utils/
+│   └── server.js
+│
+├── frontend/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   └── main.jsx
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/AI-Based-Case-Posting-and-Lawyer-Engaged-System.git
+cd AI-Based-Case-Posting-and-Lawyer-Engaged-System
+```
+
+---
+
+### 2️⃣ Install dependencies
+
+#### Backend
+
+```bash
+cd backend
+npm install
+```
+
+#### Frontend
+
+```bash
+cd frontend
+npm install
+```
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file inside the `backend` folder:
+
+```
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+STRIPE_SECRET=your_stripe_key
+```
+
+---
+
+## ▶️ Run the Project
+
+### Start Backend
+
+```bash
+cd backend
+npm start
+```
+
+### Start Frontend
+
+```bash
+cd frontend
+npm run dev
+```
+
+---
+
+## 🌐 Future Enhancements
+
+* 🤖 Advanced AI recommendations
+* 📱 Mobile app version
+* 🌍 Multi-language support
+* 🔍 Improved search & filtering
+
+---
+
+## 📸 Screenshots
+
+*Add your project screenshots here*
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Dhanush Kodi**
+
+* GitHub: https://github.com/dhanushkodi847-star
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
