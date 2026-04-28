@@ -65,7 +65,7 @@ A full-stack web application that connects clients with lawyers using AI-powered
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/AI-Based-Case-Posting-and-Lawyer-Engaged-System.git
+git clone https://github.com/dhanushkodi847-star/AI-Based-Case-Posting-and-Lawyer-Engaged-System.git
 cd AI-Based-Case-Posting-and-Lawyer-Engaged-System
 ```
 
@@ -108,7 +108,7 @@ STRIPE_SECRET=your_stripe_key
 
 ```bash
 cd backend
-npm start
+npm run dev
 ```
 
 ### Start Frontend
@@ -131,7 +131,7 @@ npm run dev
 
 ## 📸 Screenshots
 
-*Add your project screenshots here*
+Screenshots are in frontend/assest
 
 ---
 
