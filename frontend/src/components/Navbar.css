@@ -1,0 +1,91 @@
+.navbar {
+  background-color: var(--bg-main);
+  padding: 1.5rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #F8D9A3; /* Gold tint for legalAI logo */
+  text-decoration: none;
+  letter-spacing: -0.025em;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(217, 160, 91, 0.1);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(217, 160, 91, 0.2);
+}
+
+.logo span {
+  color: var(--text-main);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-links a, .nav-links button {
+  text-decoration: none;
+  color: var(--text-main);
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-links a:hover, .nav-links button:hover:not(.primary-btn, .logout-btn) {
+  color: var(--primary);
+}
+
+.nav-links .primary-btn {
+  background: linear-gradient(90deg, #D9A05B 0%, #E8B475 100%);
+  color: #0A0F1D !important;
+  border: none !important;
+  padding: 0.6rem 1.5rem;
+  border-radius: var(--radius-md);
+  font-weight: 700 !important;
+  transition: all 0.2s;
+  box-shadow: 0 4px 10px rgba(217, 160, 91, 0.2);
+}
+
+.nav-links .primary-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 15px rgba(217, 160, 91, 0.3);
+  color: #0A0F1D !important;
+}
+
+.logout-btn {
+  color: var(--danger) !important;
+  font-weight: 600 !important;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--danger) !important;
+  border-radius: var(--radius-md);
+}
+
+.logout-btn:hover {
+  background-color: #FEF2F2 !important;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    gap: 1rem;
+  }
+}

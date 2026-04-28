@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "69c27e8da64a9c589b31ba9a",
+    "name": "TestLawyer",
+    "email": "testlawyer@gmail.com",
+    "role": "lawyer"
+  },
+  {
+    "_id": "69c28414a64a9c589b31bb40",
+    "name": "Lawyer Mike",
+    "email": "mike92@lawyer.com",
+    "role": "lawyer"
+  },
+  {
+    "_id": "69c284eaa64a9c589b31bb61",
+    "name": "TestClient",
+    "email": "testclient@gmail.com",
+    "role": "client"
+  },
+  {
+    "_id": "69c28b6e7fceea58f7a8c8ba",
+    "name": "System Admin",
+    "email": "admin@gmail.com",
+    "role": "admin"
+  },
+  {
+    "_id": "69c35a64cd3525d30a161865",
+    "name": "John Client",
+    "email": "client_monitor@example.com",
+    "role": "client"
+  },
+  {
+    "_id": "69c35a64cd3525d30a161868",
+    "name": "Sarah Lawyer",
+    "email": "lawyer_monitor@example.com",
+    "role": "lawyer"
+  }
+]
